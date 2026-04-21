@@ -1,0 +1,7 @@
+names:
+- class_0
+nc: 1
+path: D:\My saved documents\code\Chilies detection\YOLO data\YOLO dataset
+test: test/images
+train: train/images
+val: val/images
