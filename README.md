@@ -31,8 +31,9 @@ By focusing only on detected chili regions instead of full images, the model imp
 - Combines YOLO (detection) and GoogLeNet (classification)  
 - Improved accuracy by focusing on detected objects  
 - Suitable for real-time industrial applications  
-- Utilizes a modern deep learning architecture  
-<Figure size 640x480 with 3 Axes>
+- Utilizes a modern deep learning architecture
+  <img width="618" height="406" alt="image" src="https://github.com/user-attachments/assets/fa361adb-c0a1-403f-9ba2-6cfdf26e06a3" />
+
 ---
 
 ##  Limitations  
