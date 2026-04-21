@@ -1,73 +1,55 @@
-#Chili Detection and Classification AI Model
+# 🌶️ Chili Detection and Classification AI Model
 
-Author
+**Author:** Le Thanh Sang  
 
-Le Thanh Sang
+---
 
-Overview
+## 📌 Overview  
+This project presents an AI model for detecting and classifying chili quality from images. It is designed to support industrial production lines by automatically identifying and filtering out low-quality chili materials.  
 
-This project presents an AI model for detecting and classifying chili quality from images. The system is designed to support industrial production lines by automatically identifying and filtering out low-quality chili materials.
+The model classifies chili into three categories: **Normal, Dried, and Defective (low-quality).**
 
-The model classifies chili into the following categories:
+---
 
-Normal
+## ⚙️ Methodology  
+The system follows a two-stage pipeline:  
+- **Object Detection:** Chili objects are detected using YOLO.  
+- **Classification:** Detected regions are classified using a CNN based on the GoogLeNet architecture.  
 
-Dried
+By focusing only on detected chili regions instead of full images, the model improves both efficiency and accuracy.
 
-Defective (low-quality)
+---
 
-Methodology
+## 🎯 Application  
+- Input quality control in chili production lines  
+- Detection of defective chili on conveyor belts  
+- Support for raw material selection  
 
-The proposed system follows a two-stage pipeline:
+---
 
-Object Detection:
+## ✅ Advantages  
+- Combines YOLO (detection) and GoogLeNet (classification)  
+- Improved accuracy by focusing on detected objects  
+- Suitable for real-time industrial applications  
+- Utilizes a modern deep learning architecture  
 
-Chili objects are first detected using the YOLO model.
+---
 
-Classification:
+## ⚠️ Limitations  
+- Limited training data affects performance  
+- Difficulty in accurately distinguishing defective chili in some cases  
 
-Detected chili regions are then classified using a Convolutional Neural Network based on the GoogLeNet architecture.
+---
 
-Instead of processing the entire image, this approach focuses only on detected chili regions, improving both efficiency and accuracy.
+## 📄 Documentation  
+A detailed report is included in this project for further explanation of the model, training process, and results.
 
-Application
+---
 
-This AI model is designed for industrial automation, specifically:
+## ⚠️ Note  
+Please ensure all file paths are correctly updated according to your local environment before running the code.
 
-Input quality control in chili production lines
+---
 
-Detecting defective chili on conveyor belts
-
-Supporting raw material selection processes
-
-Advantages
-
-Combines YOLO (detection) and GoogLeNet (classification)
-
-Improves accuracy by focusing on detected objects
-
-Suitable for real-time applications in production environments
-
-Uses a modern deep learning architecture
-
-<Figure size 640x480 with 3 Axes>
-
-Limitations
-
-Limited training data affects overall performance
-
-The model may not accurately distinguish defective chili in some cases
-
-Documentation
-
-A detailed report is included in this project.
-
-Please refer to it for a deeper explanation of the model, training process, and results.
-
-Conclusion
-
-This project demonstrates the effectiveness of combining object detection and deep learning classification for automated quality control. With more training data and further optimization, the model can achieve even higher performance in real-world applications.
-
-Note
-
-When using this code, please ensure that all file paths are correctly updated to match your local environment.
+## 🚀 Conclusion  
+This project demonstrates the effectiveness of combining object detection and deep learning classification for automated quality control. With more training data and further optimization, the model can achieve higher performance in real-world applications.
